@@ -1,0 +1,81 @@
+/* https://www.frontendmentor.io/challenges */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    max-width: 100%;
+    padding: 10px;
+    margin: 0 ;
+    background-color: #fab587;
+    border: 1px black solid;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:90px;
+}
+
+.barra_pesquisa{
+    align-items: center;
+    border: 1px solid #000000;
+    background-color: white;
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    width: 400px;
+    height: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+
+.barra_pesquisa>input{
+    background-color: transparent;
+    font-family: 'IM FELL DW Pica SC';
+    font-size: 20px;
+    border: none;
+    color: black;
+    height: 100%;
+    outline: none;
+    width: 100%;
+
+}
+
+.barra_pesquisa>img{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.icons{
+    list-style: none;
+    
+}
+
+.icon{
+    display: table-cell;
+}
+
+.logo_inicial{
+    padding: 20px;
+}
+
+.icon > a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+
+
